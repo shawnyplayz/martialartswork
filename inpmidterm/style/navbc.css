@@ -93,12 +93,12 @@ nav {
     flex-direction: column;
     clip-path: circle(100px at 110% -20%);
     -webkit-clip-path: circle(100px at 110% -20%);
-    transition: all 0.7s ease-out;
+    transition: all 0.9s ease-out;
     pointer-events: none;
   }
   .nav-links.open {
     clip-path: circle(1000px at 90% -10%);
-    -webkit-clip-path: circle(1000px at 90% -10%);
+    -webkit-clip-path: circle(1500px at 90% -10%);
     pointer-events: all;
     z-index: 2;
   }
