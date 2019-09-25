@@ -31,10 +31,10 @@ nav {
   position: absolute;
   margin-right: auto;
   box-sizing: border-box;
-  padding: 60px 60px;
+  padding: 25px;
   background-image: url(../image/elogo.png);
   background-size: 25vh ;
-  background-position: 10% 20%;
+  background-position: 10% 50%;
   background-repeat: no-repeat;
   z-index: 3;
 }
@@ -43,7 +43,6 @@ nav {
   width: 60px;
   position: absolute;
   margin: auto;
-  padding: 10px;
   background-size: 100% 100%;
 }
 
