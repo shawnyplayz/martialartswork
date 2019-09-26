@@ -39,6 +39,11 @@ html , body {
 	text-align: center;
 	color:white;
 }
+.ibotton{
+	max-height: 50px;
+	width: 100%;
+	align-items: center;
+}
 .text h4{
 	font-size: 30px;
 	margin-top: 30px;
@@ -65,23 +70,30 @@ html , body {
 	width: 100%;
 }
 .footer-sectionone{
+	flex: 1;
 	color: white;
 	text-align: center;
-	width: 50%;
-	max-width: 50%;
+	width: 75%;
 	position: absolute;
+	background-color: #212121;
 }
 .footer-sectionone p{
+	text-align: center;
+	font-size: 20px;
 	margin-top: 30px;
 	margin-bottom: 20px;
 }
 .fcontact span,a{
 	display: block;
-	margin-bottom: 8px;
+	font-size: 20px;
+	margin-bottom: 12px;
 }
 .footer-sectiontwo{
-	flex: auto;
-	width: 50%;
+	margin-left: 75%;
+	width: 25%;
+	height: 100%;
+	flex: 1;
+	margin-right: 0;
 	position: absolute;
 }
 .fdown{
@@ -95,9 +107,11 @@ html , body {
 	padding-top: 10px;
 }
 #map{
-	height: 150px;
-	width: 150px;
+	position: absolute;
+	height: 100%;
+	width: 100%;
 	border-color: white;
+	background-color: black;
 }
 #buttonone{
 	background-color: white;
@@ -130,38 +144,7 @@ html , body {
 	top: 50%;
 }
 
-.submenu{
-	display: none;
-	background-color: grey;
-	float: right;
-	width: 15%;
-}
-.rightmenu ul li:hover .submenu{
-	display: block;
-	position: absolute;
-	background: grey;
-	margin-right: 50px;
-	margin-left: -10px;
-}
-.rightmenu ul li a:hover .submenu ul{
-	display: block;
-	margin:15px;
-}
-.rightmenu ul li:hover .submenu ul li{
-	padding: 10px;
-	float:right;
-	width:2500%;
-	border-bottom: transparent;
-	background:grey;
-	border-radius: 10px;
-	text-align: left;
-}
-.rightmenu ul li:hover .submenu ul li:last-child{
-	border-bottom: none;
-}
-.rightmenu ul li:hover .submenu ul li a:hover{
-	color: #b2ff00;
-}
+
 .mobile-icon{display: none;}
 @media only screen and (max-width: 1180px){
 	 .text{
