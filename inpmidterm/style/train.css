@@ -36,15 +36,21 @@
 	width: 100%;
 	height:100%;
 	border-left: 10%;
-	background-color: blue;
+	background-image: url("../image/ft.jpg");	
+	background-size: 100% 100%;
+	border: solid 2px black;
 }
 .def{
 	flex: 1;
 	width: 100%;
-	background-color: black;
+	background-image: url("../image/selfdef.jpg");
+	background-size: 100% 100%;
+	border: solid 2px black;
 }
 .food{
 	flex: 1;
 	width: 100%;
 	background-color:red;
+	background-image: url("../image/nutrition.jpg");
+	background-size: 100% 100%;
 }
