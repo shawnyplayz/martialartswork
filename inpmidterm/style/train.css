@@ -1,0 +1,26 @@
+.wrapper{
+
+	background-color: white;
+	background-image: none;
+	height: 100%;
+	width: 100%;
+}
+.bgimage1{
+
+	background-color: white;
+		height: 100%;
+	width: 100%;
+	position: absolute;
+}
+.menu{
+	background-color: #212121;
+}
+.hamburger{
+	background-color: #212121;
+}
+.logod{
+	background-color: #212121;
+}
+.nav-links{
+	background-color: #212121;
+}
