@@ -70,11 +70,10 @@
   backface-visibility: hidden;
   overflow: hidden;
   background: blue;
-  color: #333;
+  color: white;
   text-align: center;
   transform: rotateY(180deg);
 }
-
 .text1{
 	width: 60%;
 	height: 30%;
@@ -89,6 +88,21 @@
 }
 h2{
   margin-left: 20%;
+}
+#buttonft{
+  background-color: white;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 40px;
+  width: 150px;
+  font-family: 'Montserrat',sans-serif; text-transform: uppercase;
+  margin-top: 50px;
+  border: 3px solid black;
+}
+.matter{
+  align-items: center;
 }
 .def{
 	flex: 1;
@@ -126,11 +140,10 @@ h2{
   backface-visibility: hidden;
   overflow: hidden;
   background:red;
-  color: #333;
+  color: yellow;
   text-align: center;
   transform: rotateY(180deg);
 }
-
 .text2{
 	height: 30%;
 	margin-left: 15%;
@@ -141,6 +154,21 @@ h2{
 	align-items: center;
 	font-size: 50px;
 	font-weight: bold;
+}
+#buttondef{
+  background-color: white;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 40px;
+  width: 150px;
+  font-family: 'Montserrat',sans-serif; text-transform: uppercase;
+  margin-top: 50px;
+  border: 3px solid black;
+}
+.matter2{
+  align-items: center;
 }
 .food{
 	flex: 1;
@@ -177,7 +205,7 @@ h2{
   backface-visibility: hidden;
   overflow: hidden;
   background:yellow;
-  color: #333;
+  color: black;
   text-align: center;
   transform: rotateY(180deg);
 }
@@ -190,4 +218,19 @@ h2{
 	align-items: center;
 	font-size: 50px;
 	font-weight: bold;
+}
+#buttonfood{
+  background-color: white;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 40px;
+  width: 150px;
+  font-family: 'Montserrat',sans-serif; text-transform: uppercase;
+  margin-top: 50px;
+  border: 3px solid black;
+}
+.matter3{
+  align-items: center;
 }
