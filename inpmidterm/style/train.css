@@ -102,6 +102,8 @@ h2{
   border: 3px solid black;
 }
 .matter{
+   font-size: 20px;
+   margin: 8% auto;
   align-items: center;
 }
 .def{
@@ -168,6 +170,8 @@ h2{
   border: 3px solid black;
 }
 .matter2{
+   font-size: 20px;
+   margin: 8% auto;
   align-items: center;
 }
 .food{
@@ -232,5 +236,7 @@ h2{
   border: 3px solid black;
 }
 .matter3{
+  font-size: 20px;
+  margin: 8% auto;
   align-items: center;
 }
