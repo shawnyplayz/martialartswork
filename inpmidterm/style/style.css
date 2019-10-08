@@ -40,9 +40,12 @@ html , body {
 	color:white;
 }
 .ibotton{
-	max-height: 50px;
+	height: 10%;
+	max-height: 10%;
 	width: 100%;
 	align-items: center;
+	justify-content: center;
+	display: flex;
 }
 .text h4{
 	font-size: 30px;
@@ -104,7 +107,7 @@ html , body {
 	position: absolute;
 	bottom: 0px;
 	left: 0px;
-	padding-top: 10px;
+	padding-top: 8px;
 }
 #map{
 	position: absolute;
@@ -133,6 +136,7 @@ html , body {
 	line-height: 40px;
 	width: 150px;
 	font-family: 'Montserrat',sans-serif;	text-transform: uppercase;
+	margin-top: 50px;
 	border: 3px solid white;
 	color: white;
 }
