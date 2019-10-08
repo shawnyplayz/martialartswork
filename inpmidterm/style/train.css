@@ -135,7 +135,7 @@ h2{
 }
 .theback2{
   position: absolute;
- 
+
   width: 100%;
   height: 100%;
   border-radius: 10px;
@@ -239,4 +239,51 @@ h2{
   font-size: 20px;
   margin: 8% auto;
   align-items: center;
+}
+@@media only screen and (min-width: 1590px) {
+
+		.text 1 h2{
+			font-size: 10%;
+		}
+.text1 h1{
+	font-size: 10%;
+}
+.matter{
+	font-size: 10px;
+}
+.matter2{
+	font-size: 10px;
+}
+.matter3{
+	font-size: 10px;
+}
+}
+@@media only screen and (min-width: 1500px) {
+	.ft{
+		width: 80%;
+
+	}
+	.selfdef{
+		width: 80%;
+
+	}
+	.food{
+		width: 80%;
+		
+	}
+	.matter{
+		font-size: 10px;
+	}
+	.matter2{
+		font-size: 10px;
+	}
+	.matter3{
+		font-size: 10px;
+	}
+		.text 1 h2{
+			font-size: 10%;
+		}
+.text1 h1{
+	font-size: 10%;
+}
 }
