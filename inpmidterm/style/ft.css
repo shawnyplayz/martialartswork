@@ -5,7 +5,7 @@
 .bgimage1{
 	background-image: url("../image/bgtrain.jpg");
 	position: absolute;
-	height: 200%;
+	height: 220%;
 	width: 100%;
 
 }
@@ -54,7 +54,7 @@ box-shadow:  1px 2px 10px 5px white;
 	margin-right: 20%;
 	margin-top: 6vh;
 	position: absolute;
-	background-image: url("../image/bgtrain.jpg");
+
 	display: table;
 }
 .container1{
