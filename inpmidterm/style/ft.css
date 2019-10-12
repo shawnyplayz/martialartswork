@@ -4,10 +4,10 @@
 }
 .bgimage1{
 	background-image: url("../image/bgtrain.jpg");
-	position: absolute;
-	height: 230%;
+	position: relative;
+	height: 100%;
 	width: 100%;
-
+	display: block;
 }
 .menu{
 	background-color: #212121;
@@ -57,20 +57,19 @@ top 13vh;F
 	margin-right: 20%;
 	margin-top: 10vh;
 	position: absolute;
-
-	display: table;
+	display: block;
 }
 .container1{
-	display: table-cell;
-	margin-top: 7%;
+	display: inline-block;
 	width: 100%;
-	position: absolute;
-
+	height: 18%;
+	position: relative;
 }
 .conttext1{
 	position: absolute;
 	height: 100%;
 	margin-right: 40%;
+	flex: 2;
 }
 .conttext1 h1{
 	padding: 1%;
@@ -90,19 +89,20 @@ top 13vh;F
 	position: absolute;
 	margin-left: 60%;
 	margin-top:2%;
+	flex: 1;
 }
 .container2{
-	display: table-cell;
-	margin-top: 32%;
+	display: inline-block;
 	width: 100%;
-	position: absolute;
+	height: 18%;
+	position: relative;
 
 }
 .conttext2{
 	position: absolute;
 	height: 100%;
 	margin-right: 40%;
-
+	flex: 2;
 
 }
 .conttext2 h1{
@@ -123,21 +123,20 @@ top 13vh;F
 	position: absolute;
 	margin-left: 60%;
 	margin-top:2%;
+	flex: 1;
 }
 .container3{
-	display: table-cell;
-	margin-top: 58%;
-
+	display: inline-block;
 	width: 100%;
-	position: absolute;
+	height: 18%;
+	position: relative;
 
 }
 .conttext3{
 	position: absolute;
-	height: 100%;
+	height: inherit;
 	margin-right: 40%;
-
-
+	flex: 2;
 }
 .conttext3 h1{
 	padding: 1%;
@@ -157,14 +156,14 @@ top 13vh;F
 	position: absolute;
 	margin-left: 60%;
 	margin-top:2%;
+	flex: 1;
 }
 .container4{
-	display: table-cell;
-	margin-top: 84%;
-
+	display: inline-block;
 	width: 100%;
-	position: absolute;
-
+	height: 18%;
+	position: relative;
+	flex: 2;
 }
 .conttext4{
 	position: absolute;
@@ -189,19 +188,19 @@ top 13vh;F
 	position: absolute;
 	margin-left: 60%;
 	margin-top:2%;
+	flex: 1;
 }
 .container5{
-	display: table-cell;
-	margin-top: 110%;
+	display: inline-block;
 	width: 100%;
-	position: absolute;
-
+	height: 18%;
+	position: relative;
 }
 .conttext5{
 	position: absolute;
 	height: 100%;
 	margin-right: 40%;
-
+	flex: 2;
 }
 .conttext5 h1{
 	padding: 1%;
@@ -221,4 +220,5 @@ top 13vh;F
 	position: absolute;
 	margin-left: 60%;
 	margin-top:2%;
+	flex: 1;
 }
