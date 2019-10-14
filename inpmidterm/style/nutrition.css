@@ -58,7 +58,7 @@ top 13vh;F
 	margin-top: 10vh;
 	position: absolute;
 	display: block;
-  color: #f39c12;
+  color: white;
 }
 .cd1{
 	display: inline-block;
@@ -78,7 +78,7 @@ top 13vh;F
 	font-style: oblique;
 	font-size: 4vw;
 	font-weight: bold;
-	color:white;
+	color:black;
 }
 .cdt1 h2{
 	margin-left: 3%;
