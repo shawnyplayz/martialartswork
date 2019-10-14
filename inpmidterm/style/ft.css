@@ -225,15 +225,19 @@ top 13vh;F
 	margin-top:2%;
 	flex: 1;
 }
-media only screen and (max-width:1400px) {
+@media only screen and (max-width:1300px) {
+
+.conttext1{
+	flex-direction: column;
+}
 .conttext1 h1{
 	font-size: 4vw;
 }
-.conttext1{
-	flex-direction: row;
+.conttext1 h2{
+	font-size: 1.4vw;
 }
 .media1{
-	flex-direction: row;
+	flex-direction: column;
 }
 
 }
