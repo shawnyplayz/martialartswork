@@ -26,7 +26,8 @@ width: 100%;
   position: absolute;
   display: block;
   background-size: 100% 100%;
-  background-image: url("../image/2.jpg");
+  background-image: url("../image/4.jpg");
+
   margin-top: 5.1%;
   height: auto;
   weight: auto;
@@ -57,6 +58,7 @@ top 13vh;F
 
 }
 .bigcont{
+
 height: auto;
 margin-top:
 display: block;
@@ -64,16 +66,16 @@ display: block;
 .smallcont{
   left: 20%;
   display: inline-block;
-  border: 1px solid black;
   padding: 10px;
   margin:10px;
   margin-left: 20%;
+
   display: flex;
 }
 .smallcont h1{
 	padding: 1%;
 	text-align: left;
-	font-style: oblique;
+	font-style: Times;
 	font-size: 2vw;
 	font-weight: bold;
 	color: white;
@@ -81,13 +83,16 @@ display: block;
 .smallcont h2{
 	margin-left: 3%;
 	font-size: 1.2vw;
-	font-style: sans-serif;
+  line-height: 4vh;
+  font-weight: 900;
+	font-style: bold ;
 	margin-right: 20px;
-  color: orange;
+  color: #AF391C;
 }
 .innerdiv{
 flex:2;
 }
 .media{
   flex:1;
+  align-content: center;
 }
