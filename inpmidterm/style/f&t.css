@@ -27,6 +27,7 @@ width: 100%;
   display: block;
   background-size: 100% 100%;
   background-image: url("../image/2.jpg");
+  background-image: linear-gradient(black, blue);
   margin-top: 5.0%;
   height: auto;
   weight: auto;
