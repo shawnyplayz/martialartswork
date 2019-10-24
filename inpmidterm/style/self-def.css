@@ -124,6 +124,7 @@ flex:2;
  }
  .media{
    flex-direction: column;
+   margin-left: 2%;
  }
  .media iframe{
    align-items: center;
